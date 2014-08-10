@@ -12,11 +12,9 @@ title : DAY DAY UP
 tagline: Site Tagline
 author :
   name : zhpengg
-  email : z@ddup.us
   github : zhpengg
   twitter : zhpengg
-  feedburner : feedname
-
+  weibo: zhpengg
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
@@ -82,7 +80,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : zhpengg
+      short_name : thinkinginrt
     livefyre :
       site_id : 123
     intensedebate :

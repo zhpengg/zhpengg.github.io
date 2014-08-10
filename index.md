@@ -8,11 +8,9 @@ tagline: Supporting tagline
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }}</p>
+      <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;
+						
+      <p>{{ post.excerpt | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Investigation of Network Application Timeout"
+title: "一次网络超时的 Debug 过程"
 description: ""
 category: "system"
 tags: ["linux", "tcp"]
